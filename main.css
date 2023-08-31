@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #fff;
+    background-color: #ee0000;
 }
 
 .nameMargin {
@@ -20,7 +20,7 @@ body {
 }
 
   #Form {
-    color: #fff;
+    color: #1805ee;
     flex-grow: 10;
     text-align: center;
     padding: 1em;
@@ -40,7 +40,7 @@ body {
     margin: auto;
     margin-bottom:0%;
     color: #f1f1f1;
-    background-color: #212e38;
+    background-color: #EFBC9B;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
