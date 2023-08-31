@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #fff;
+}
+
+.nameMargin {
+    margin-bottom: 20px;
+}
+.ranger {
+    width: 400px;
+    height: 15px;
+    border-radius: 10px;  
+    background: #1805ee;
+    align-items: center;
+    margin: 15px;
+}
+
+  #Form {
+    color: #fff;
+    flex-grow: 10;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    font-size: large;
+  }
+
+.schoolcard1, .schoolcard2, .schoolcard3{
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 10px 0 #000;
+    transition: 0.8s;
+    text-align: center;
+    width: 350px;
+    height: 200px;
+    border: 1px solid #1805ee;
+    perspective: 1000px;
+    margin: auto;
+    margin-bottom:0%;
+    color: #f1f1f1;
+    background-color: #212e38;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: stretch;
+        align-content: stretch;
+}
+
+.schoolcard1{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.schoolcard2{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.schoolcard3{
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.schoolcards{
+    transform: translate(0px, 0px);
+    float: left;
+}
+
+/* On mouse-over, add a deeper shadow*/
+.cards:hover {
+    box-shadow: 0 8px 16px 0 #fff;
+}
+
+.flex {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: stretch;
+        align-content: stretch;
+}
