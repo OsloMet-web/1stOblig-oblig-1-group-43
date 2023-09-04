@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #ee0000;
+    background-color: #fff;
 }
 
 .nameMargin {
@@ -14,7 +14,7 @@ body {
     width: 400px;
     height: 15px;
     border-radius: 10px;  
-    background: #1805ee;
+    background: #898989;
     align-items: center;
     margin: 15px;
 }
