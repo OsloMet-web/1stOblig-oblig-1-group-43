@@ -71,7 +71,7 @@ body {
 
 /* On mouse-over, add a deeper shadow*/
 .cards:hover {
-    box-shadow: 0 8px 16px 0 #fff;
+    box-shadow: 0 8px 16px 0 #676767;
 }
 
 .flex {
