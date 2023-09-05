@@ -20,7 +20,7 @@ body {
 }
 
   #Form {
-    color: #1805ee;
+    color: #090909;
     flex-grow: 10;
     text-align: center;
     padding: 1em;
@@ -35,12 +35,12 @@ body {
     text-align: center;
     width: 350px;
     height: 200px;
-    border: 1px solid #1805ee;
+    border: 1px solid hsl(300, 82%, 68%);
     perspective: 1000px;
     margin: auto;
     margin-bottom:0%;
-    color: #f1f1f1;
-    background-color: #EFBC9B;
+    color: #030202;
+    background-color: hsl(91, 72%, 77%);
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -71,7 +71,7 @@ body {
 
 /* On mouse-over, add a deeper shadow*/
 .cards:hover {
-    box-shadow: 0 8px 16px 0 #890e0e;
+    box-shadow: 0 8px 16px 0 #e061c4;
 }
 
 .large-card {
