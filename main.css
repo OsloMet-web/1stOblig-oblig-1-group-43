@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-body {
+body { /* legger til bakgrunnsfarge */
     background-color: #fff;
 }
 
@@ -14,7 +14,6 @@ nav { /* Navigasjon boks */
     background-color: #069a49; /* Bakgrunnsfarge */
     color: #fff; /* Tekstfarge */
     padding: 10px 0; /* Avstand over og under navigasjonsmenyen */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Skyggeeffekt */
 }  
 
 .nav-menu { /* Navigasjon meny */ 
@@ -25,19 +24,21 @@ nav { /* Navigasjon boks */
     list-style-type: none;
     padding: 0;
 }
-.nav-menu li {
+.nav-menu li { /* bruker for å målrette nav-meny, med list item*/
     color: #000;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 20px; /* bokstav størrelse*/
     display: inline; /* Plasser menyelementer horisontalt */
     margin-right: 20px; /* Avstand mellom menyelementer */
 }
-.nav-menu li {
-    color: rgb(45, 101, 101);
+
+/* Endre fargen på lenken for "side 1" til hvit */
+.nav-menu li a[href="page-1.html"] {
+    color: white;
     margin-right: 0; /* Fjern høyremargin fra siste element */
 }
 
-.nav-menu a {
+.nav-menu a { /* a element- ankerlenker. bruker for å stilisere lenker i naven*/
     text-decoration: none;
     color: #fff; /* Farge på lenkene */
     font-weight: bold; /* Fet skrift */
@@ -48,10 +49,11 @@ nav { /* Navigasjon boks */
 .nav-menu a:hover {
     color: #ff6600;
 }
-.nameMargin {
+.nameMargin { /* 20 pixel i margin slik det ikke limes sammen*/
     margin-bottom: 20px;
 }
-.ranger {
+.ranger { /* her bruker jeg pixel i høyde, bredde osv slik det blir fint */
+
     width: 400px;
     height: 15px;
     border-radius: 10px;  
@@ -60,7 +62,7 @@ nav { /* Navigasjon boks */
     margin: 15px;
 }
 
-  #Form {
+  #Form { /* form for p gi farge, padding osv */
     color: #090909;
     flex-grow: 10;
     text-align: center;
@@ -116,14 +118,14 @@ nav { /* Navigasjon boks */
 }
 /* css stil for det store kortet med data1100 */
 .large-card {
-    background-color: #f2f2f2;
+    background-color: hsl(91, 72%, 77%);
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 10px;
     margin: 20px;
 }
 
-.flex {
+.flex { /* flex slik at alt står fint i henhold til hverandre */
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
