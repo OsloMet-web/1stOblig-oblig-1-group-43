@@ -33,7 +33,7 @@ nav { /* Navigasjon boks */
     margin-right: 20px; /* Avstand mellom menyelementer */
 }
 .nav-menu li:last-child {
-    color: rgb(28, 111, 174);
+    color: rgb(45, 101, 101);
     margin-right: 0; /* Fjern høyremargin fra siste element */
 }
 
