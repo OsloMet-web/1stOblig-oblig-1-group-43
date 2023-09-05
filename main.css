@@ -7,6 +7,46 @@ body {
     background-color: #fff;
 }
 
+nav { /* Navigasjon boks */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #890e0e; /* Bakgrunnsfarge */
+    color: #fff; /* Tekstfarge */
+    padding: 10px 0; /* Avstand over og under navigasjonsmenyen */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Skyggeeffekt */
+}  
+
+.nav-menu { /* Navigasjon meny */ 
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-right: 0%;
+    list-style-type: none;
+    padding: 0;
+}
+.nav-menu li {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline; /* Plasser menyelementer horisontalt */
+    margin-right: 20px; /* Avstand mellom menyelementer */
+}
+.nav-menu li:last-child {
+    color: rgb(28, 111, 174);
+    margin-right: 0; /* Fjern høyremargin fra siste element */
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #fff; /* Farge på lenkene */
+    font-weight: bold; /* Fet skrift */
+}
+
+/* Endre farge på lenken ved hover (når musen er over) */
+.nav-menu a:hover {
+    color: #ff6600;
+}
 .nameMargin {
     margin-bottom: 20px;
 }
@@ -73,7 +113,7 @@ body {
 .cards:hover {
     box-shadow: 0 8px 16px 0 #890e0e;
 }
-
+/* css stil for det store kortet med data1100 */
 .large-card {
     background-color: #f2f2f2;
     padding: 20px;
