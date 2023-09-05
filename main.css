@@ -11,7 +11,7 @@ nav { /* Navigasjon boks */
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #890e0e; /* Bakgrunnsfarge */
+    background-color: #069a49; /* Bakgrunnsfarge */
     color: #fff; /* Tekstfarge */
     padding: 10px 0; /* Avstand over og under navigasjonsmenyen */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Skyggeeffekt */
@@ -32,7 +32,7 @@ nav { /* Navigasjon boks */
     display: inline; /* Plasser menyelementer horisontalt */
     margin-right: 20px; /* Avstand mellom menyelementer */
 }
-.nav-menu li:last-child {
+.nav-menu li {
     color: rgb(45, 101, 101);
     margin-right: 0; /* Fjern høyremargin fra siste element */
 }
@@ -41,6 +41,7 @@ nav { /* Navigasjon boks */
     text-decoration: none;
     color: #fff; /* Farge på lenkene */
     font-weight: bold; /* Fet skrift */
+    font-size: 20px;
 }
 
 /* Endre farge på lenken ved hover (når musen er over) */
